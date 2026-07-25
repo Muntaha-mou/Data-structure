@@ -18,12 +18,12 @@ int main()
             if(str[i+j]!=sub[j])
                 break;
         }
-    }
     if(j==m)
     {
         printf("sub string found at position=%d\n",i);
         found=1;
 
+    }
     }
     if(found==0)
     {
